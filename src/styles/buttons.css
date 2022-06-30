@@ -17,3 +17,12 @@
 .btn--primary:hover {
   background-color: hsla(200, 100%, 35%, 1);
 }
+
+.btn--danger {
+  color: white;
+  background-color: hsla(0, 100%, 50%, 1);
+}
+
+.btn--danger:hover {
+  background-color: hsla(0, 100%, 35%, 1);
+}

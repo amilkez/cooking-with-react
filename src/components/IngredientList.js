@@ -6,7 +6,7 @@ function IngredientList({ ingredients }) {
     return <Ingredient key={ingredient.id} {...ingredient} />;
   });
 
-  return <div>{ingredientElements}</div>;
+  return <div className="ingredient-grid">{ingredientElements}</div>;
 }
 
 export default IngredientList;
